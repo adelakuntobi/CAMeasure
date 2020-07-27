@@ -1,0 +1,110 @@
+
+
+body{
+  background-color: #F0F5FC !important;
+  font-family: 'Raleway', sans-serif !important;
+}
+h2{
+  text-transform: uppercase;
+  color: #3F51B5;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+}
+
+
+header{
+  padding-left: 3rem;
+  .hero-text{
+    padding-left: 1rem;
+    
+    .logo{
+      width: 150px;
+      padding: 1rem 0 3rem;
+    }
+    h1{
+      font-family: 'Quicksand', sans-serif !important;
+      font-weight: 600 !important;
+      font-size: 3.5rem !important;
+      line-height: 1.5 !important;
+      span{
+        color: #3f51b5;
+      }
+    }
+    p{
+      font-weight: 500;
+    }
+    h6{
+      font-weight: 700;
+    }
+    .hero-image{
+      object-fit: contain;
+      width: 60%;
+    }
+    form{
+      div{
+        display: flex;
+        background-color: white;
+        border: 1px solid #BDBDBD;
+        border-radius: 20px;      
+        input{
+          border: 0;
+          outline: 0;
+          border-radius: 20px;
+        }
+        i{
+          padding: 5px 1.7rem;
+          border-radius: 0px 20px 20px 0;
+          background-color: #FF4081;
+        }
+      }
+    }
+  }
+}
+
+.how-it-works{
+  margin: 7rem 0;
+  .row{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .steps{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    div{
+      background: #FFFFFF;
+      border-radius: 50px;
+      padding: 2rem 1rem;
+      max-width: 316px !important;
+      margin: 1rem auto;
+      img{
+        padding: 1rem;
+        margin-bottom: .5rem;
+        background-color: rgba(63, 81, 181, 0.15);
+        border-radius: 15px;
+      }
+      h6{
+        margin: .5rem 0 1.5rem 0;
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+
+
+
+@media (max-width: 740px){
+  header{
+    padding: 1rem 3rem;
+    .hero-text{
+      padding: 0;
+      h1{
+        line-height: 1 !important;
+      }
+    }
+      .hero-image{
+        display: none;
+      }
+  }
+}

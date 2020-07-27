@@ -1,0 +1,117 @@
+body {
+  background-color: #F0F5FC !important;
+  font-family: 'Raleway', sans-serif !important;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: #3F51B5;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+}
+
+header {
+  padding-left: 3rem;
+}
+
+header .hero-text {
+  padding-left: 1rem;
+}
+
+header .hero-text .logo {
+  width: 150px;
+  padding: 1rem 0 3rem;
+}
+
+header .hero-text h1 {
+  font-family: 'Quicksand', sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 3.5rem !important;
+  line-height: 1.5 !important;
+}
+
+header .hero-text h1 span {
+  color: #3f51b5;
+}
+
+header .hero-text p {
+  font-weight: 500;
+}
+
+header .hero-text h6 {
+  font-weight: 700;
+}
+
+header .hero-text .hero-image {
+  object-fit: contain;
+  width: 60%;
+}
+
+header .hero-text form div {
+  display: flex;
+  background-color: white;
+  border: 1px solid #BDBDBD;
+  border-radius: 20px;
+}
+
+header .hero-text form div input {
+  border: 0;
+  outline: 0;
+  border-radius: 20px;
+}
+
+header .hero-text form div i {
+  padding: 5px 1.7rem;
+  border-radius: 0px 20px 20px 0;
+  background-color: #FF4081;
+}
+
+.how-it-works {
+  margin: 7rem 0;
+}
+
+.how-it-works .row {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.how-it-works .steps {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.how-it-works .steps div {
+  background: #FFFFFF;
+  border-radius: 50px;
+  padding: 2rem 1rem;
+  max-width: 316px !important;
+  margin: 1rem auto;
+}
+
+.how-it-works .steps div img {
+  padding: 1rem;
+  margin-bottom: .5rem;
+  background-color: rgba(63, 81, 181, 0.15);
+  border-radius: 15px;
+}
+
+.how-it-works .steps div h6 {
+  margin: .5rem 0 1.5rem 0;
+  font-weight: 700;
+}
+
+@media (max-width: 740px) {
+  header {
+    padding: 1rem 3rem;
+  }
+  header .hero-text {
+    padding: 0;
+  }
+  header .hero-text h1 {
+    line-height: 1 !important;
+  }
+  header .hero-image {
+    display: none;
+  }
+}
